@@ -1,0 +1,26 @@
+.header{
+    background-color:black;
+    width:96%;
+    padding:10px 2%;
+    min-height:20px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    width:40%;
+    float:left;
+    color:white;
+}
+
+.dropdown{
+    width:60%;
+    float:left;
+    text-align: right;
+}
+
+.dropdown select{
+    padding:2px;
+    border-radius:2px;
+    margin-left:5px;
+    min-width:130px;
+}

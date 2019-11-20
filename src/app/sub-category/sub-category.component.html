@@ -1,0 +1,9 @@
+<div class="breadcrumb">
+    <div class="link" (click)="goToMainCat()">Equipment Catalog</div>/
+    <div class="link" >{{currentCategoryName}}</div>
+</div>
+
+<div class="box" *ngFor="let product of subCategoryList">
+    <img [src]="product.image" class="img">
+    <span class="title">{{product.name}}</span>
+</div>

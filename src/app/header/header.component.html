@@ -1,0 +1,20 @@
+<div class="header">
+    <div class="logo">
+        RENTAL MANAGEMENT SYSTEM
+    </div>
+    <div class="dropdown">
+       
+        <span style="color:white">Select Location: </span>
+        <select (change)="selectedLoc($event.target.value)" [(ngModel)]="category">
+            <option>Select....</option>
+            <option [ngValue]="category" *ngFor="let category of location; let i = index" [value]="i">{{category.name}}</option>
+        </select>
+        
+
+        <select (change)="selectedSubLoc($event.target.value)" [(ngModel)]="subCategory">
+            <option [ngValue]="subCategory" *ngFor="let subCategory of sublocation; let i = index" [value]="i">{{subCategory.name}}</option>
+          </select>
+    </div>
+</div>
+
+

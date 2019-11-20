@@ -1,0 +1,29 @@
+.box{
+    width:180px;
+    border:1px solid #ccc;
+    margin:10px 40px 0 0 ;
+    display:inline-block;
+    box-shadow: 1px 2px 3px #ccc;
+}
+.link{
+    color:black;
+    padding:0 10px;
+    display:inline;
+}
+.breadcrumb{
+    min-width:200px;
+    display: block;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.img{
+    display:block;
+    width: 150px;
+    padding:12px;
+}
+.title{
+    display:block;
+    background-color:steelblue;
+    color:white;
+    padding:12px;
+}

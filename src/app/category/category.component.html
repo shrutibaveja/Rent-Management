@@ -1,0 +1,8 @@
+<div class="breadcrumb">
+        <div class="link">Equipment Catalog</div>
+</div>
+
+<div class="box" *ngFor="let product of categoryList; let i = index" (click)="getSubCat(i)" >
+    <img [src]="product.image" class="img">
+    <span class="title">{{product.name}}</span>
+</div>
